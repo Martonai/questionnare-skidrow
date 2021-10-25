@@ -40,6 +40,13 @@ users can see the current status of each questionnaire, which can be:
 3. completed
 
 ## 5.System laws, standards, recommendations
+This application is not open source and cannot be distributed for money. 
+In addition, this application exclude any other copy version. The application can be used anywhere. 
+This app is built on three main pillars:
+
+1. Integrity
+2. Availability
+3. Confidentiality
 
 ## 6.Current business process model
 
