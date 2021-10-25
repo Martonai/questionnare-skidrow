@@ -1,40 +1,34 @@
+
 # Function Specification
 
 ## 1.Overview
+The customer want a web applicaton, where he can make his own questions, and finally he can save and see the results in a database.
+The goal of this applicaton to examine and assess people knowledge about many topics.
+The application has to be connected to a realtime database, beacuse customer want to save the results to this database.
+For the questions, the application has to read from an csv file, and application doesn't need an administration site where he can upload questions.
+But, needs a user-registraion interface, where users have to add there username, a valid email address and a password.
+There are two type of questions.
+First is a survey. This survey has a few questions, about the actual topics. The result of this survey has to save to a databse too.
+Second is the topic's questions. It has more questions, and these questions has to be saved in a database.
+There are no pre-defined questions, the application has to be basic, and can be used for any questions.
 
-We are building an application which provides a basic questionnaire for any topics.
-Customer can type his own questions and the application will show it for the users.
-Users can register to this site, and they have to fill a survey first to assess their knowledge. Then
-they can fill the actual questionnaire about any topics.
-This application will be a web application with a realtime database, and it's written on PHP langugage.
-This PHP application read the questions from an CSV file.
-There are two types of questions.
-1. Survey questions
-2. Topic questions
 
-Survey questions are about the topic questions, but these questions more like an exam, users has to fill it, before they
-can fill the real questionnaire.
-This survey has less questions then the real questionnaire.
-Topic questions are about the actual topic questions.
-
-So, there is no pre-defined questions, the customer will add questions or delete them.
-
-There is no need an administrative interface for upload questions, and uneccessary to save questions in database, even so the results of questionnaire.
-Results are for users personally.
 ## 2.Current situation
 
-## 3.Dream system
+## 3.List of requirements
 
-## 4.Functional requirements
+## 4.Current business process model
 
-## 5.System laws, standards, recommendations
+## 5.Required process model
 
-## 6.Current business process model
+## 6.Use cases
 
-## 7.Required business process
+## 7.How use cases cover the requirements
 
-## 8.List of requirements
+## 8.Screen plans
 
-## 9.Reports
+## 9.Scenario
 
-## 10.Glossary
+## 10.Function-requirement matching
+
+## 11.Glossary
