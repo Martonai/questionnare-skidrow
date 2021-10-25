@@ -23,6 +23,12 @@ Even in today’s world, there are a lot of questionnaires in paper form.
 Yet in today’s modern world, it is a great opportunity to have a questionnaire easily accessible and compatible with all devices.
 
 ## 3.Dream System
+The aim of the project is to create a questionnaire that will attract people. 
+This can be achieved both with the style of the page and with the clarity and transparency of that questionnaire. 
+In addition, we design an easy-to-use system that any age group can easily use every day. 
+here will be no unnecessary advertisements or any distractions in our project that could distract users from the questionnaire. 
+After completing the questionnaire, users will receive some form of feedback. 
+This can be the average of the aggregate responses of the other respondents, or you can review your own responses.
 
 ## 4.Functional requirements
 
