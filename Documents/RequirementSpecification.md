@@ -1,23 +1,33 @@
 #Requirement Specification
 
-## 1. Overview
+## 1.Overview
+The customer want a web applicaton, where he can make his own questions, and finally he can save and see the results in a database.
+The goal of this applicaton to examine and assess people knowledge about many topics.
+The application has to be connected to a realtime database, beacuse customer want to save the results to this database.
+For the questions, the application has to read from an csv file, and application doesn't need an administration site where he can upload questions.
+But, needs a user-registraion interface, where users have to add there username, a valid email address and a password.
+There are two type of questions.
+First is a survey. This survey has a few questions, about the actual topics. The result of this survey has to save to a databse too.
+Second is the topic's questions. It has more questions, and these questions has to be saved in a database.
+There are no pre-defined questions, the application has to be basic, and can be used for any questions.
 
-## 2. Current situation
 
-## 3. List of requirements
+## 2.Current situation
 
-## 4. Current business process model
+## 3.List of requirements
 
-## 5. Required process model
+## 4.Current business process model
 
-## 6. Use cases
+## 5.Required process model
 
-## 7. How use cases cover the requirements
+## 6.Use cases
 
-## 8. Screen plans
+## 7.How use cases cover the requirements
 
-## 9. Scenario
+## 8.Screen plans
 
-## 10. Function-requirement matching
+## 9.Scenario
 
-## 11. Glossary
+## 10.Function-requirement matching
+
+## 11.Glossary
