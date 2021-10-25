@@ -19,6 +19,8 @@ as they are not considered important enough or boring and a waste of time. Most 
 causing most people to step back from filling out at first glance or distract people from filling out the questionnaire. 
 Based on personal experience, the style and appearance of most questionnaires are quite repulsive. 
 They do not pay enough attention to it, although it is at least as important as the questionnaire itself.
+Even in today’s world, there are a lot of questionnaires in paper form. 
+Yet in today’s modern world, it is a great opportunity to have a questionnaire easily accessible and compatible with all devices.
 
 ## 3.List of requirements
 
