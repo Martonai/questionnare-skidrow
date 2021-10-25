@@ -1,21 +1,22 @@
-#Function Specification
+# Function Specification
 
-##1. Overview
+## 1. Overview
 
-##2. Current situation
 
-##3. Dream system
+## 2. Current situation
 
-##4. Functional requirements
+## 3. Dream system
 
-##5. System laws, standards, recommendations
+## 4. Functional requirements
 
-##6. Current business process model
+## 5. System laws, standards, recommendations
 
-##7. Required business process
+## 6. Current business process model
 
-##8. List of requirements
+## 7. Required business process
 
-##9. Reports
+## 8. List of requirements
 
-##10. Glossary
+## 9. Reports
+
+## 10. Glossary
