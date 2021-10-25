@@ -32,6 +32,12 @@ This can be the average of the aggregate responses of the other respondents, or 
 We want people to think that after completing the questionnaire, they think they would like to participate in completing additional questionnaires.
 
 ## 4.Functional requirements
+The application provides login interface and user can contact with admins if something went wrong.
+users can see the current status of each questionnaire, which can be:
+
+1. ready to fill
+2. under completion
+3. completed
 
 ## 5.System laws, standards, recommendations
 
