@@ -15,7 +15,10 @@ There are no pre-defined questions, the application has to be basic, and can be 
 ## 2.Current situation
 From the beginning, most questionnaires in the world are boring, long, old-fashioned, they don’t get results immediately after 
 filling out the questionnaire, or they don’t get it at all. Most people never fill out any questionnaires in their lifetime 
-as they are not considered important enough or boring and a waste of time.
+as they are not considered important enough or boring and a waste of time. Most surveys are packed with ads and inappropriate things, 
+causing most people to step back from filling out at first glance or distract people from filling out the questionnaire. 
+Based on personal experience, the style and appearance of most questionnaires are quite repulsive. 
+They do not pay enough attention to it, although it is at least as important as the questionnaire itself.
 
 ## 3.List of requirements
 
