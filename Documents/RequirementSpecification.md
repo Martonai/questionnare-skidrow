@@ -29,6 +29,7 @@ In addition, we design an easy-to-use system that any age group can easily use e
 here will be no unnecessary advertisements or any distractions in our project that could distract users from the questionnaire. 
 After completing the questionnaire, users will receive some form of feedback. 
 This can be the average of the aggregate responses of the other respondents, or you can review your own responses.
+We want people to think that after completing the questionnaire, they think they would like to participate in completing additional questionnaires.
 
 ## 4.Functional requirements
 
