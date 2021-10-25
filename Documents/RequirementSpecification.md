@@ -22,20 +22,18 @@ They do not pay enough attention to it, although it is at least as important as 
 Even in today’s world, there are a lot of questionnaires in paper form. 
 Yet in today’s modern world, it is a great opportunity to have a questionnaire easily accessible and compatible with all devices.
 
-## 3.List of requirements
+## 3.Dream System
 
-## 4.Current business process model
+## 4.Functional requirements
 
-## 5.Required process model
+## 5.System laws, standards, recommendations
 
-## 6.Use cases
+## 6.Current business process model
 
-## 7.How use cases cover the requirements
+## 7.Required business process
 
-## 8.Screen plans
+## 8.List of requirements
 
-## 9.Scenario
+## 9.Reports
 
-## 10.Function-requirement matching
-
-## 11.Glossary
+## 10.Glossary
