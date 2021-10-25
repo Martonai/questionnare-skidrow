@@ -14,7 +14,8 @@ There are no pre-defined questions, the application has to be basic, and can be 
 
 ## 2.Current situation
 From the beginning, most questionnaires in the world are boring, long, old-fashioned, they don’t get results immediately after 
-filling out the questionnaire, or they don’t get it at all.
+filling out the questionnaire, or they don’t get it at all. Most people never fill out any questionnaires in their lifetime 
+as they are not considered important enough or boring and a waste of time.
 
 ## 3.List of requirements
 
