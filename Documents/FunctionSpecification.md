@@ -23,18 +23,20 @@ There is no need an administrative interface for upload questions, and uneccessa
 Results are for users personally.
 ## 2.Current situation
 
-## 3.Dream system
+## 3.List of requirements
 
-## 4.Functional requirements
+## 4.Current buisness process model
 
-## 5.System laws, standards, recommendations
+## 5.Required business process
 
-## 6.Current business process model
+## 6.Use cases
 
-## 7.Required business process
+## 7.Correspondence, how the use cases are covered a requirements
 
-## 8.List of requirements
+## 8.Screen plans
 
-## 9.Reports
+## 9.Scenario
+
+## 10.Function-requirements compilance
 
 ## 10.Glossary
