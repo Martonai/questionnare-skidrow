@@ -4,7 +4,7 @@
 
 We are building an application which provides a basic questionnaire for any topics.
 Customer can type his own questions and the application will show it for the users.
-Users can register to this site, and they have to fill a survey first to assess their knowledge. Then
+Users don't need to register to this site they can reach the page rigth away. They have to fill a survey first to assess their knowledge. Then
 they can fill the actual questionnaire about any topics.
 This application will be a web application with a realtime database, and it's written on PHP langugage.
 This PHP application read the questions from an CSV file.
@@ -46,9 +46,8 @@ There is 3 main charachter of this application
 * The users, who can fill the survey and the questionnaire
 * Database, which can store the results of the questionnaire
 
-The first screen will be a registration interface, where users can register.
-After a succesfull registration, users has to login.
-After succesfull login, users can complete a short survey, after they can complete the questionnaire.
+The first screen will be a home page where the user contributor have to click on the Quiestionnaire.
+After clicking on the questionnaire, users can complete a short survey, after they can complete the questionnaire.
 If users has completed the survey or the questionnaire they can submit the answers, and the PHP application will save the result to a database.
 
 ## 10.Function-requirements compilance
