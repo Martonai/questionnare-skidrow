@@ -36,6 +36,16 @@ Results are for users personally.
 ## 8.Screen plans
 
 ## 9.Scenario
+There is 3 main charachter of this application
+* The running web application
+* The users, who can fill the survey and the questionnaire
+* Database, which can store the results of the questionnaire
+
+The first screen will be a registration interface, where users can register.
+After a succesfull registration, users has to login.
+After succesfull login, users can complete a short survey, after they can complete the questionnaire.
+If users has completed the survey or the questionnaire they can submit the answers, and the PHP application will save the result to a database.
+
 
 ## 10.Function-requirements compilance
 
