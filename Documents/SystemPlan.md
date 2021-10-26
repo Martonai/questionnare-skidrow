@@ -1,4 +1,4 @@
-#System plan
+# System plan
 
 ## 1.System purpose
 The purpose of the application is to satisfy the needs of the customer.
@@ -40,8 +40,8 @@ Organizational requirements
 
 ## 5.Functional plan
 ### System characters
-*Admin
-*User contributor
+* Admin
+* User contributor
 
 ## 6.Physical environment
 
