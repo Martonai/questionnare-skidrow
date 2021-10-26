@@ -58,5 +58,11 @@ prevent these mistakes with a web based solution and this is our goal.
 ## 8.List of requirements
 
 ## 9.Reports
+This is questionnaire where users can share their opinion about the application:
+
+Are you satisfied with this application?
+Would you change something about this application?
+How would you rate the application on a scale 1 to 5?
+Would you recommend this application to others?
 
 ## 10.Glossary
