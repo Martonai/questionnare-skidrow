@@ -28,6 +28,11 @@ Results are for users personally.
 ## 4.Current buisness process model
 
 ## 5.Required business process
+Building a completely easy-to-use web application, where people can complete questionnaires about any topics which is given by the admin of the web application.
+Also, the results will save in a database, beacuse the customer want to see the results of each questionnaires.
+This application is universal, and a basic system, and for this reason, the customer can make his own questions.
+
+
 
 ## 6.Use cases
 
@@ -45,7 +50,6 @@ The first screen will be a registration interface, where users can register.
 After a succesfull registration, users has to login.
 After succesfull login, users can complete a short survey, after they can complete the questionnaire.
 If users has completed the survey or the questionnaire they can submit the answers, and the PHP application will save the result to a database.
-
 
 ## 10.Function-requirements compilance
 
