@@ -53,9 +53,6 @@ This app is built on three main pillars:
 ## 7.Required business process
 
 ## 8.List of requirements
-| Model  | ID | Name | Version | Explantation |
-| ------------- | ------------- | ------------- | ------------- | ------------- |
-| Permission | K01 | Regist interface | 1.0 | The user can registration with his/her email and with his/her password. |
 
 ## 9.Reports
 
