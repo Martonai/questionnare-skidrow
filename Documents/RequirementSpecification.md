@@ -56,6 +56,8 @@ This app is built on three main pillars:
 | Model  | ID | Name | Version | Explantation |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Permission | K01 | Regist interface | 1.0 | The user can registration with his/her email and with his/her password. |
+| Modification | K02 | Login interface | 1.0 | The user can login to the application with his/her email and with the generated password. |
+| Modification | K03 | Create user | K03 | Login interface | 1.0 | Creating user by adding text to the username field and adding password. |
 
 ## 9.Reports
 
