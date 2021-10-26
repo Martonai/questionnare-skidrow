@@ -1,4 +1,4 @@
-#Requirement Specification
+# Requirement Specification
 
 ## 1.Overview
 The customer want a web applicaton, where he can make his own questions, and finally he can save and see the results in a database.
@@ -49,6 +49,9 @@ This app is built on three main pillars:
 3. Confidentiality
 
 ## 6.Current business process model
+Nowadays the paper-based system is obsolete and not redundant as well. Paper-based task management is obsolete in the 21st century. That's a lot printing and printing costs. In a paper based questionnaire people have to spend a lot of time to evaluate the questionnaires
+and they often make a mistake which is not a good system at all. Furthermore people sometimes mess up the questionnaire by filling the test incorrectly like putting two marks at a choose one question. Or circle a text instead of putting and X in the checkbox. It is possible
+prevent these mistakes with a web based solution and this is our goal.
 
 ## 7.Required business process
 
