@@ -9,6 +9,9 @@
 ## 4.Requirements
 
 ## 5.Functional plan
+### System characters
+*Admin
+*User contributor
 
 ## 6.Physical environment
 
