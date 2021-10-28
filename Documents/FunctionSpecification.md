@@ -31,6 +31,12 @@ They ordered the production of a new system, which via the Internet using modern
 The XXI. century requires that all this must be available on the network, accordingly the website must be available to the customer to release.
 
 ## 3.List of requirements
+| Model  | ID | Name | Version | Explantation |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| Modification | K02 | Survey        | 1.0 | Questiones about survey
+| Modification | K03 | Questiones    | 1.0 | Questiones about the questionnaire	
+| Modification | K04 | Submit button | 1.0 | Create submit button to submit the answers. |
+| Modification | K05 | Dark mode | 1.1 | Changes the web theme. The background color becames dark and the texts become light |
 
 ## 4.Current buisness process model
 
