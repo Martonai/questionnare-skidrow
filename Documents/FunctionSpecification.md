@@ -50,6 +50,20 @@ This application is universal, and a basic system, and for this reason, the cust
 ## 6.Use cases
 
 ## 7.Correspondence, how the use cases are covered a requirements
+1. The  web application is created to include the administration, which will be accessed by entering the system by entering a username / password. 
+These will provide the main functions of the system.
+
+2. On the site you will be able to choose from many questionnaires to fill out, which we will 
+solve in a modern and easily transparent style.
+
+3. Within this, users will be able to see the topic of the questionnaires, their exact address, 
+and the approximate time required to complete them.
+
+4. When building the web application, we take care to create a platform-independent, robust operation, 
+so we check the correctness of our code.
+
+5. The managed data will be stored in a database. By using the database, we ensure the extensibility of the data, 
+with which we can easily add new functions to the system afterwards.
 
 ## 8.Screen plans
 
