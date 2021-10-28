@@ -21,7 +21,13 @@ So, there is no pre-defined questions, the customer will add questions or delete
 
 There is no need an administrative interface for upload questions, and uneccessary to save questions in database, even so the results of questionnaire.
 Results are for users personally.
+
 ## 2.Current situation
+The customer wants to expand the availability of their questionnaires so that as many people as possible can easily fill in their questionnaires.
+Customer had ordered a well-built system, which is available throught web. 
+They used a paper based solution before but they quickly realized that it is not really effective. 
+So they started to search for a solution that helps them in this situation. 
+They ordered the production of a new system, which via the Internet using modern solutions works.
 
 ## 3.List of requirements
 
