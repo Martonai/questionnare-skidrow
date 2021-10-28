@@ -28,6 +28,7 @@ Customer had ordered a well-built system, which is available throught web.
 They used a paper based solution before but they quickly realized that it is not really effective. 
 So they started to search for a solution that helps them in this situation. 
 They ordered the production of a new system, which via the Internet using modern solutions works.
+A XXI. century requires that all this must be available on the network, accordingly the website must be available to the customer to release.
 
 ## 3.List of requirements
 
