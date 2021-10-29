@@ -39,6 +39,14 @@ The XXI. century requires that all this must be available on the network, accord
 | Modification | K05 | Dark mode | 1.1 | Changes the web theme. The background color becames dark and the texts become light |
 
 ## 4.Current buisness process model
+Nowadays, questionnaires are doesn't assess people knowledge about the topics.
+They just fill the questionnaire, and somebody even don't know nothing about the topic.
+Also, most of questionnaires are requires some registration, but not this one!
+Yes, this one is a non-register web application, where isn't required to login, just fill the survey, then fill the questionnaire.
+Simple, but powerful.
+Furthermore, most of questionnaires are not save the results to a database, but this one.
+
+
 
 ## 5.Required business process
 Building a completely easy-to-use web application, where people can complete questionnaires about any topics which is given by the admin of the web application.
