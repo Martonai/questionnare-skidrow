@@ -86,5 +86,12 @@ After clicking on the questionnaire, users can complete a short survey, after th
 If users has completed the survey or the questionnaire they can submit the answers, and the PHP application will save the result to a database.
 
 ## 10.Function-requirements compilance
+| ID  | Version | Requirement | Function |
+| ------------- | ------------- | ------------- | ------------- |
+| 01 | 1.0 | Read from csv        | 1.0 | PHP application read the questions from a csv file
+| 02 | 2.0 | Fill survey    | 1.0 | People has to fill a quick survey	
+| 03 | 3.0 | Fill questionnaire | 1.0 | People can fill the questionnaire |
+| 04 | 4.0 | Save results to a database | 1.1 | Results will be saved to the database |
+
 
 ## 10.Glossary
