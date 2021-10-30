@@ -9,7 +9,7 @@ The purpose of the application is to satisfy the needs of the customer.
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Requirement specification | Make it done | 1 | 10 | 20 | 10 |
 | Function specification | Make it done | 1  | 10 | 20	| 10 |
-| System plan | Make it done | Make | 1 | 10 | 20 | 10 |
+| System plan | Make it done | 1 | 10 | 20 | 10 |
 | Data storage | Database planning | 1 | 10 | 20 | 10 |
 | Source code  | Read from csv and connect to database, then show for the users | 1 | 10 | 20 | 10 |
 
