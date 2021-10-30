@@ -58,10 +58,7 @@ This application is universal, and a basic system, and for this reason, the cust
 ## 6.Use cases
 
 ## 7.Correspondence, how the use cases are covered a requirements
-1. The  web application is created to include the administration, which will be accessed by entering the system by entering a username / password. 
-These will provide the main functions of the system.
-
-2. On the site you will be able to choose from many questionnaires to fill out, which we will 
+1. On the site you will be able to choose from many questionnaires to fill out, which we will 
 solve in a modern and easily transparent style.
 
 3. Within this, users will be able to see the topic of the questionnaires, their exact address, 
