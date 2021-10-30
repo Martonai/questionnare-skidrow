@@ -130,3 +130,10 @@ Application can connect to a database, and can save the results to this database
 ## 12.Installation plan
 
 ## 13.Maintenance plan
+We has to keep up-to-date the application.
+Also has to provide a full support to our customer, if he want to upgrade the application.
+Somy types of maintanece
+
+* Adaptive maintanece: Keeping the prorgam up-to-date and well-running.
+* Preventive maintanece: Troubleshoot problems which may occours, and not seems to serious but causes serious problems
+* Perfective maintanece: Performed long-term support like modification, new features, perfromance and operations.
