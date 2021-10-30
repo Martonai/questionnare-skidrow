@@ -86,6 +86,46 @@ Backend:
 ## 10.Implemenentation plan
 
 ## 11.Test plan
+### Testing procedures
+
+	### Unit test
+	
+		Whenever possible, it is neccessary to test during development to ensured
+		that methods are works properly. The methods are ready when the test cases run 
+		without errors.
+		
+	### Alfa test
+		
+		The primary purpose of the alfa test is to make the existing functions different 
+		testing for compatibility with browsers on PCs and on Mobile phones.
+		The procedure is successfully if the functions works properly each browsers on each devices.
+	
+	### Beta test
+	
+		The beta test is not performed by developers, it's being tested by users.
+		Browsers, which will used during the test
+		
+		* Opera
+		* Mozilla Firefox
+		* Google Chrome
+		* Safari
+		
+		Devices, which will used during the test
+		
+		* Personal Computer with windows
+		* Android devices
+		* iOS devices
+		
+		The application will be responsive in each devices
+		
+	### Functions, which has to be tested
+	
+		Customer can upload new questions and survey questions from an csv file.
+		So PHP application has to read from a csv application.
+		Users can fill the survey and the questinarrie.
+		Application can connect to a database, and can save the results to this database.
+		
+
 
 ## 12.Installation plan
 
