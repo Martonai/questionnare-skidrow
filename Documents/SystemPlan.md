@@ -1,7 +1,10 @@
 # System plan
 
 ## 1.System purpose
-The purpose of the application is to satisfy the needs of the customer.
+The purpose of the application is to that users can easily fill a Questionnaire without the need of the registration. The interface need to be user friendly which means should be easy to use.
+The user can not make big mistakes thanks to the radio buttons and checkboxes. The system operator assign an excel to the web which will include the questions and answers to the questionnaire.
+When the user finish the questionnaire and click on the submit button his/her answers will be saved in another excel based on if he/her was able to properly complete the first test questinnaire.
+The system runs on a web platform.
 
 
 ## 2.Project plan
@@ -122,7 +125,7 @@ The application will be responsive in each devices
 	
 Customer can upload new questions and survey questions from an csv file.
 So PHP application has to read from a csv application.
-Users can fill the survey and the questinarrie.
+Users can fill the survey and the questionnaire.
 Application can connect to a database, and can save the results to this database.
 		
 
