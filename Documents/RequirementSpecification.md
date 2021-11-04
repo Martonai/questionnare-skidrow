@@ -51,9 +51,12 @@ This app is built on three main pillars:
 ## 6.Current business process model
 Nowadays the paper-based system is obsolete and not redundant as well. Paper-based task management is obsolete in the 21st century. That's a lot printing and printing costs. In a paper based questionnaire people have to spend a lot of time to evaluate the questionnaires
 and they often make a mistake which is not a good system at all. Furthermore people sometimes mess up the questionnaire by filling the test incorrectly like putting two marks at a choose one question. Or circle a text instead of putting and X in the checkbox. It is possible
-prevent these mistakes with a web based solution and this is our goal.
+prevent these mistakes with a web based solution and this is our goal. The users often don't complete the survey because they need a registration to it.
 
 ## 7.Required business process
+The user don't need to register to the page so this way probably mroe people will fill the questionnaire. Furthermore they don't have to type any of their answers because there will be base answers to each question. It will be a
+lot more user friendly and they can't do that much mistakes thanks to the strict rules we use. If the user didn't fill every question the system will give a Warning message. When the user did all the questions he/she can ubmit their answers which will be saved in an excel.
+
 
 ## 8.List of requirements
 | Model  | ID | Name | Version | Explantation |
