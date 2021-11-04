@@ -58,9 +58,11 @@ prevent these mistakes with a web based solution and this is our goal.
 ## 8.List of requirements
 | Model  | ID | Name | Version | Explantation |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Modification | K02 | Survey        | 1.0 | Questiones about survey
-| Modification | K03 | Questiones    | 1.0 | Questiones about the questionnaire	
-| Modification | K04 | Submit button | 1.0 | Create submit button to submit the answers. |
+| Entitlement | K01 | Start survey | 1.0 | Click on the Start survey and the page will bring up all of the questions.
+| Task type | K02 | Survey | 1.0 | There are several questions and multiple answers to them where the user must choose one or more answer to each question. Based on what question says. 
+| Entitlement | K03 | Submit button | 1.0 | Submit button to submit the answers. 
+| Entitlement | K04 | Help button | 1.1 | Help button is where the users can inform how they will need to fill the survey.
+| Task type | K05 | Test | 1.1 | There are several questions and multiple answers to them where the user must choose one or more answer to each question. Based on what question says. We are going to diced based on these answers if we accept the user Survey answers. |
 
 
 
