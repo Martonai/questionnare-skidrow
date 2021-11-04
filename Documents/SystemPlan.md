@@ -108,6 +108,11 @@ Codeigniter is the framework.
 
 ## 10.Implemenentation plan
 
+The Web interface will be written mainly in HTML, CSS, and Javascript.
+These technologies are prepared as much as possible in separate files and
+we will attach to each other better transparency, easier changeability,
+and easier expansion.
+
 ## 11.Test plan
 ### Testing procedures
 
