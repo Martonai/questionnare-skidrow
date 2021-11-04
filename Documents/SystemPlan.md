@@ -52,8 +52,26 @@ and the responsibilities and powers of the Information Security Supervisor, as w
 
 ## 5.Functional plan
 ### System characters
-* Admin
+* System operator
 * User contributor
+
+### System usage cases and their run-offs:
+
+SYSTEM OPERATOR:
+*Have access to view the excel table.
+*Can modify the excel.
+*Able to assign the excel to the web.
+
+USER CONTRIBUTOR:
+*Able to open the questinnaire.
+*Can change their answers via checkboxes and radio buttons.
+*Can Submit their answers.
+
+### Menu hierarchy:
+
+*Questionnaire
+*Help
+
 
 ## 6.Physical environment
 The application has to support every browser (expect interntet explorer), beacuse we don't know which
