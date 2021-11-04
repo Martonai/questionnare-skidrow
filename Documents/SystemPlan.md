@@ -20,6 +20,7 @@ The system runs on a web platform.
 
 ## 4.Requirements
 ### Non Functional Requirements:
+
 The product requirements
 Usability requirements: The created product should be easy to learn for new users and should only require minimal IT knowledge.
 Reliability follow-ups: The system to be developed accesses a database through a web interface. 
