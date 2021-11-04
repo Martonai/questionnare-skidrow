@@ -59,6 +59,14 @@ This application is universal, and a basic system, and for this reason, the cust
 
 ## 6.Use cases
 
+### User contributor
+The user can click on the help menu which will bring up the help description. It will give a guide to the user how to fill the questionnaire. The user can start filling a questionnaire by clicking clicking on the Quiestionnaire and Start Quiestionnaire button. 
+After clicking on the Start Quiestionnaire button the user can see all of the questions on the screen and all of the answers assigned to them. Then the user can tick the radio buttons and checkboxes based on their answers. After the user finishes the test he/she can
+click on the Submit button to send their answers.
+
+### System operator
+The system operator can reach the excel tables. The question table and the submitted answer table. He/she is able to view the tables and modify the Question table or assign another question table to the website.
+
 ## 7.Correspondence, how the use cases are covered a requirements
 1. On the site you will be able to choose from many questionnaires to fill out, which we will 
 solve in a modern and easily transparent style.
