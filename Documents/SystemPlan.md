@@ -87,6 +87,8 @@ The procedure is successful if you have it in different browsers and on differen
 Beta test:
 
 This test is not performed by developers. Browsers to test: Opera, Firefox, Google Chrome, Safari Android systems to be tested: 6.0.0 (minimum) or later Display dimensions to be tested: 1280x720 (minimum), 1366x768, 1920x1080
+
+During testing, testing users can send feedback to developers in the event of a problem / bug. If an error occurs, the developers will fix it as soon as possible.
 ## 12.Installation plan
 
 ## 13.Maintenance plan
