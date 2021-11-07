@@ -41,6 +41,16 @@ Organizational requirements
 ## 5.Functional plan
 
 ## 6.Physical environment
+It will be displayed on a web interface. The application use MySQL database.
+Developer enviroments:
+
+Visual Studio Code
+PhPmyAdmin
+dbdiagram.io
+
+Programming languges:
+PhP
+
 
 ## 7.Abstract domain model
 
