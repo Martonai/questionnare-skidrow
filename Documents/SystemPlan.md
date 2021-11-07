@@ -74,21 +74,7 @@ USER CONTRIBUTOR:
 
 
 ## 6.Physical environment
-The application has to support every browser (expect interntet explorer), beacuse we don't know which
-browsers are used by each users.
-Application doesn't need an administration interface, where the customer can upload his questions.
 
-Develeper environments:
-
-* Visual Studio Code
-* PhPMyAdmin (later a realtime database)
-* dbdiagram.io
-
-Programming languges
-
-* Javascript (with Vue.js framework)
-* PHP (with codeigniter framework)
-* SQL 
 
 ## 7.Abstract domain model
 
@@ -107,61 +93,19 @@ Codeigniter is the framework.
 ## 9.Database plan
 
 ## 10.Implemenentation plan
+It will be written in Visual Studio Code. 
+These technologies are written in separate files as much as possible for easier transparency. 
+You will be able to use the Backend section running, so you can upload data to the Database.
 
 The Web interface will be written mainly in HTML, CSS, and Javascript.
 These technologies are prepared as much as possible in separate files and
 we will attach to each other better transparency, easier changeability,
 and easier expansion.
 
-## 11.Test plan
-### Testing procedures
 
-### Unit test
-	
-Whenever possible, it is neccessary to test during development to ensured
-that methods are works properly. The methods are ready when the test cases run 
-without errors.
-		
-### Alfa test
-		
-The primary purpose of the alfa test is to make the existing functions different 
-testing for compatibility with browsers on PCs and on Mobile phones.
-The procedure is successfully if the functions works properly each browsers on each devices.
-	
-### Beta test
-	
-The beta test is not performed by developers, it's being tested by users.
-Browsers, which will used during the test
-		
-* Opera
-* Mozilla Firefox
-* Google Chrome
-* Safari
-		
-Devices, which will used during the test
-		
-* Personal Computer with windows
-* Android devices
-* iOS devices
-		
-The application will be responsive in each devices
-		
-### Functions, which has to be tested
-	
-Customer can upload new questions and survey questions from an csv file.
-So PHP application has to read from a csv application.
-Users can fill the survey and the questionnaire.
-Application can connect to a database, and can save the results to this database.
-		
+Wherever possible, it is necessary to test during development to ensure that methods work properly. 
+The methods are ready when the test cases run without error methods.
+
+Alfa test:
 
 
-## 12.Installation plan
-
-## 13.Maintenance plan
-We has to keep up-to-date the application.
-Also has to provide a full support to our customer, if he want to upgrade the application.
-Somy types of maintanece
-
-* Adaptive maintanece: Keeping the prorgam up-to-date and well-running.
-* Preventive maintanece: Troubleshoot problems which may occours, and not seems to serious but causes serious problems
-* Perfective maintanece: Performed long-term support like modification, new features, perfromance and operations.
