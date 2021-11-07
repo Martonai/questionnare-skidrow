@@ -1,4 +1,4 @@
-#Requirement Specification
+# Requirement Specification
 
 ## 1.Overview
 The customer want a web applicaton, where he can make his own questions, and finally he can save and see the results in a database.
@@ -49,18 +49,32 @@ This app is built on three main pillars:
 3. Confidentiality
 
 ## 6.Current business process model
+Nowadays the paper-based system is obsolete and not redundant as well. Paper-based task management is obsolete in the 21st century. That's a lot printing and printing costs. In a paper based questionnaire people have to spend a lot of time to evaluate the questionnaires
+and they often make a mistake which is not a good system at all. Furthermore people sometimes mess up the questionnaire by filling the test incorrectly like putting two marks at a choose one question. Or circle a text instead of putting and X in the checkbox. It is possible
+prevent these mistakes with a web based solution and this is our goal. The users often don't complete the survey because they need a registration to it.
 
 ## 7.Required business process
+The user don't need to register to the page so this way probably mroe people will fill the questionnaire. Furthermore they don't have to type any of their answers because there will be base answers to each question. It will be a
+lot more user friendly and they can't do that much mistakes thanks to the strict rules we use. If the user didn't fill every question the system will give a Warning message. When the user did all the questions he/she can ubmit their answers which will be saved in an excel.
+
 
 ## 8.List of requirements
 | Model  | ID | Name | Version | Explantation |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Modification | K02 | Survey        | 1.0 | Questiones about survey
-| Modification | K03 | Questiones    | 1.0 | Questiones about the questionnaire	
-| Modification | K04 | Submit button | 1.0 | Create submit button to submit the answers. |
+| Entitlement | K01 | Start survey | 1.0 | Click on the Start survey and the page will bring up all of the questions.
+| Task type | K02 | Survey | 1.0 | There are several questions and multiple answers to them where the user must choose one or more answer to each question. Based on what question says. 
+| Entitlement | K03 | Submit button | 1.0 | Submit button to submit the answers. 
+| Entitlement | K04 | Help button | 1.1 | Help button is where the users can inform how they will need to fill the survey.
+| Task type | K05 | Test | 1.1 | There are several questions and multiple answers to them where the user must choose one or more answer to each question. Based on what question says. We are going to diced based on these answers if we accept the user Survey answers. |
 
 
 
 ## 9.Reports
+This is questionnaire where users can share their opinion about the application:
+
+1. Are you satisfied with this application?
+2. Would you change something about this application?
+3. How would you rate the application on a scale 1 to 5?
+4. Would you recommend this application to others?
 
 ## 10.Glossary
