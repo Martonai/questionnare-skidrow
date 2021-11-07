@@ -69,9 +69,20 @@ Backend:
 ## 9.Database plan
 
 ## 10.Implemenentation plan
+It will be written in Visual Studio Code. 
+These technologies are written in separate files as much as possible for easier transparency. 
+You will be able to use the Backend section running, so you can upload data to the Database.
 
 ## 11.Test plan
+Unit test:
 
+Wherever possible, it is necessary to test during development to ensure that methods work properly. 
+The methods are ready when the test cases run without error methods.
+
+Alfa test:
+
+The primary purpose of the test is to make the existing functions different testing for compatibility with browsers and androids. 
+The procedure is successful if you have it in different browsers and on different androids the various functions work properly.
 ## 12.Installation plan
 
 ## 13.Maintenance plan
