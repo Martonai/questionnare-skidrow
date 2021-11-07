@@ -170,4 +170,5 @@ Customer can upload new questions and survey questions from an csv file.
 So PHP application has to read from a csv application.
 Users can fill the survey and the questionnaire.
 Application can connect to a database, and can save the results to this database.
-
+## 12.Installation plan
+Go up to the website and fill out the survey.
