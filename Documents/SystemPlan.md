@@ -74,7 +74,32 @@ USER CONTRIBUTOR:
 
 
 ## 6.Physical environment
+It will be displayed on a web interface. The application use MySQL database.
+Developer enviroments:
 
+Visual Studio Code
+PhPmyAdmin
+dbdiagram.io
+
+Programming languges:
+PhP
+
+
+The application has to support every browser (expect interntet explorer), beacuse we don't know which
+browsers are used by each users.
+Application doesn't need an administration interface, where the customer can upload his questions.
+
+Develeper environments:
+
+* Visual Studio Code
+* PhPMyAdmin (later a realtime database)
+* dbdiagram.io
+
+Programming languges
+
+* Javascript (with Vue.js framework)
+* PHP (with codeigniter framework)
+* SQL 
 
 ## 7.Abstract domain model
 
