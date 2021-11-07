@@ -90,5 +90,5 @@ This test is not performed by developers. Browsers to test: Opera, Firefox, Goog
 
 During testing, testing users can send feedback to developers in the event of a problem / bug. If an error occurs, the developers will fix it as soon as possible.
 ## 12.Installation plan
-
+Go up to the website and fill out the survey.
 ## 13.Maintenance plan
