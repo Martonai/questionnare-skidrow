@@ -106,6 +106,77 @@ Codeigniter is the framework.
 
 ## 9.Database plan
 
+<<<<<<< Updated upstream
+=======
+![Database Plan](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/db_v01.drawio.png)
+
+###Questionnaire table
+
+**Title**
+
+The title of the questionnaire it is just a key to the questionnaire.
+
+**NameOfSurvey**
+
+NameOfSurvey is the header of the survey which will be seen on the webiste
+
+**Description**
+
+It is all about what the questionnaire is about briefly described.
+
+**ReleaseDate**
+
+Release date of the survey.
+
+**Version**
+
+Version of the survey to know if it was updated.
+
+###Questions table
+
+**ID**
+
+Primary key of the questions.
+
+**Question**
+
+The question is a text which will be one of the question in the survey.
+
+**Type**
+
+Type of the question could be to possible types test or main. The test questions will give the user a score 1 or zero based on if the answer is right or not. Only the test quiestions have right answers in the TestQuestionChoice table.
+The main questions do not have any right answers it is just based on the user preference.
+
+###TestQuestionChoice table
+
+**ID**
+
+Primary key of the TestQuestionChoice.
+
+**QuestionID**
+
+It is a foreign key to connect TestQuestionChoice to Questions.
+
+**AnswerID**
+
+It is a foreign key to connect TestQuestionChoice to Answers which will tell us which was the right answer to the test question.
+
+###Answers table
+
+**ID**
+
+Primary key for the Answers table.
+
+**Answer**
+
+The will be one of the answer to a question. The answers could be choosed my the user.
+
+**QuestionID**
+
+QuestionID is used to connect answers to a question. A question could have several answer choices.
+
+
+>>>>>>> Stashed changes
 ## 10.Implemenentation plan
 
 The Web interface will be written mainly in HTML, CSS, and Javascript.
