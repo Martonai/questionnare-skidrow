@@ -106,7 +106,7 @@ Programming languages
 ## 8.Architectural plan
 Frontend:
 
-The design of the application is developed by Visual Studio Code.
+The design of the application is developed by Visual Studio Code and written by CSS.
 
 Backend:
 
