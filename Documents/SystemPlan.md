@@ -3,7 +3,7 @@
 ## 1.System purpose
 The purpose of the application is to that users can easily fill a Questionnaire without the need of the registration. The interface need to be user friendly which means should be easy to use.
 The user can not make big mistakes thanks to the radio buttons and checkboxes. The system operator assign an excel to the web which will include the questions and answers to the questionnaire.
-When the user finish the questionnaire and click on the submit button his/her answers will be saved in another excel based on if he/her was able to properly complete the first test questinnaire.
+When the user finish the questionnaire and click on the submit button his/her answers will be saved in another excel based on if he/her was able to properly complete the first test questionnaire.
 The system runs on a web platform.
 
 
@@ -63,7 +63,7 @@ SYSTEM OPERATOR:
 *Able to assign the excel to the web.
 
 USER CONTRIBUTOR:
-*Able to open the questinnaire.
+*Able to open the questionnaire.
 *Can change their answers via checkboxes and radio buttons.
 *Can Submit their answers.
 
@@ -74,6 +74,17 @@ USER CONTRIBUTOR:
 
 
 ## 6.Physical environment
+It will be displayed on a web interface. The application use MySQL database.
+Developer enviroments:
+
+Visual Studio Code
+PhPmyAdmin
+dbdiagram.io
+
+Programming languges:
+PhP
+
+
 The application has to support every browser (expect interntet explorer), beacuse we don't know which
 browsers are used by each users.
 Application doesn't need an administration interface, where the customer can upload his questions.
@@ -84,7 +95,7 @@ Develeper environments:
 * PhPMyAdmin (later a realtime database)
 * dbdiagram.io
 
-Programming languges
+Programming languages
 
 * Javascript (with Vue.js framework)
 * PHP (with codeigniter framework)
@@ -106,8 +117,6 @@ Codeigniter is the framework.
 
 ## 9.Database plan
 
-<<<<<<< Updated upstream
-=======
 ![Database Plan](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/db_v01.drawio.png)
 
 ###Questionnaire table
@@ -175,14 +184,19 @@ The will be one of the answer to a question. The answers could be choosed my the
 
 QuestionID is used to connect answers to a question. A question could have several answer choices.
 
-
->>>>>>> Stashed changes
 ## 10.Implemenentation plan
+It will be written in Visual Studio Code. 
+These technologies are written in separate files as much as possible for easier transparency. 
+You will be able to use the Backend section running, so you can upload data to the Database.
 
 The Web interface will be written mainly in HTML, CSS, and Javascript.
 These technologies are prepared as much as possible in separate files and
 we will attach to each other better transparency, easier changeability,
 and easier expansion.
+
+
+Wherever possible, it is necessary to test during development to ensure that methods work properly. 
+The methods are ready when the test cases run without error methods.
 
 ## 11.Test plan
 ### Testing procedures
@@ -223,11 +237,8 @@ Customer can upload new questions and survey questions from an csv file.
 So PHP application has to read from a csv application.
 Users can fill the survey and the questionnaire.
 Application can connect to a database, and can save the results to this database.
-		
-
-
 ## 12.Installation plan
-
+Go up to the website and fill out the survey.
 ## 13.Maintenance plan
 We has to keep up-to-date the application.
 Also has to provide a full support to our customer, if he want to upgrade the application.
