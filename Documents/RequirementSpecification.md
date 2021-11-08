@@ -78,3 +78,9 @@ This is questionnaire where users can share their opinion about the application:
 4. Would you recommend this application to others?
 
 ## 10.Glossary
+
+1. Suvery: Survey is a little questionnaire, where users knowledge will be assested before they can go to the real questionnaire
+2. Web application: Guests can join throught a web-browser, and run the application.
+3. Integrity: The program won't be changed
+4. Availability: The program will be available everytime (expect if it is under a maintanance)
+5. Confidentiality: The program can be safe and trustful.
