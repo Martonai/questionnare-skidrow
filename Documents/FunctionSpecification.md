@@ -82,6 +82,10 @@ with which we can easily add new functions to the system afterwards.
 
 ## 8.Screen plans
 
+![Home page](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/main.drawio.png)
+
+![Survey page](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/survey.drawio.png)
+
 ## 9.Scenario
 There is 3 main charachter of this application
 * The running web application
