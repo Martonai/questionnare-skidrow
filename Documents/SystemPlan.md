@@ -119,7 +119,7 @@ Codeigniter is the framework.
 
 ![Database Plan](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/db_v01.drawio.png)
 
-###Questionnaire table
+### Questionnaire table
 
 **Title**
 
@@ -141,7 +141,7 @@ Release date of the survey.
 
 Version of the survey to know if it was updated.
 
-###Questions table
+### Questions table
 
 **ID**
 
@@ -156,7 +156,7 @@ The question is a text which will be one of the question in the survey.
 Type of the question could be to possible types test or main. The test questions will give the user a score 1 or zero based on if the answer is right or not. Only the test quiestions have right answers in the TestQuestionChoice table.
 The main questions do not have any right answers it is just based on the user preference.
 
-###TestQuestionChoice table
+### TestQuestionChoice table
 
 **ID**
 
@@ -170,7 +170,7 @@ It is a foreign key to connect TestQuestionChoice to Questions.
 
 It is a foreign key to connect TestQuestionChoice to Answers which will tell us which was the right answer to the test question.
 
-###Answers table
+### Answers table
 
 **ID**
 
@@ -183,6 +183,24 @@ The will be one of the answer to a question. The answers could be choosed my the
 **QuestionID**
 
 QuestionID is used to connect answers to a question. A question could have several answer choices.
+
+### Submitted
+
+**ID**
+
+Primary key for the submitted table.
+
+**T_Answers**
+
+T_Answers are the test answers the user has choosen. There will be several T_Answers based on have many questions does the questionnaire have.
+
+**Q_Answers**
+
+Q_Answers are the test answers the user has choosen. There will be several Q_Answers based on have many questions does the questionnaire have.
+
+**Acceptable**
+
+Acceptable is a value which will tell us if the user failed on teh test or not. If the test is failed there will be a 0 of the the test is succeeded then there will be a 1.
 
 ## 10.Implemenentation plan
 It will be written in Visual Studio Code. 
