@@ -106,3 +106,7 @@ If users has completed the survey or the questionnaire they can submit the answe
 
 
 ## 10.Glossary
+
+1. Suvery: Survey is a little questionnaire, where users knowledge will be assested before they can go to the real questionnaire
+2. Web application: Guests can join throught a web-browser, and run the application.
+3. Database: A big storage of datas, where the results will be saved.
