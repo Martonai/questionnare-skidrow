@@ -17,6 +17,33 @@ The system runs on a web platform.
 | Source code  | Read from csv and connect to database, then show for the users | 1 | 10 | 20 | 10 |
 
 ## 3.Business process model
+[Database Plan](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/BusinessPlan_model.png)
+
+### Business users
+The system can be used without registration, and sing in. So, thanks to this, every users has been handled with equals.
+Every user is supposed to fill the survey, before the questionnaire.
+After that, when they have filled survey already, they can fill the questionnaire.
+They have to submit their answers with a submit button, after that, they will be finished.
+
+### Business process
+No registration process.
+No login process.
+Fill suvey.
+Fill questionnaire.
+Submit button after filled every answer.
+
+### Buisness process for guest users
+They are going to fill a questionnaire, where their knowledge will be assested.
+So, they have to fill a little survey about the topic, and after that, they will see the questionnaire itself.
+They have to answer for every question, or else they will not be able to press the submit button.
+After that, the site will say thank for the filling.
+
+### Business process for Admin/Customer
+He has access to the csv file, from where the questionnaire will read the questions.
+He is able to write new questions, or delete the old, useless ones.
+Moreover, he has the access to the database, where the results we be saved.
+Finally, he can read the results from database.
+
 
 ## 4.Requirements
 
