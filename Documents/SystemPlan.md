@@ -17,7 +17,7 @@ The system runs on a web platform.
 | Source code  | Read from csv and connect to database, then show for the users | 1 | 10 | 20 | 10 |
 
 ## 3.Business process model
-![Business process model](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/BusinessPlan_model.png)
+![Business process model](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/updatedBusinessPlan_model.png)
 
 ### Business users
 The system can be used without registration, and sing in. So, thanks to this, every users has been handled with equals.
