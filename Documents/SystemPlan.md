@@ -156,7 +156,7 @@ The main questions do not have any right answers it is just based on the user pr
 
 **QuestionID**: QuestionID is used to connect answers to a question. A question could have several answer choices.
 
-### Submitted
+### Submitted table
 
 **ID**: Primary key for the submitted table.
 
