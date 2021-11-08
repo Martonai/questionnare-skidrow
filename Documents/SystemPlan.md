@@ -119,6 +119,7 @@ Codeigniter is the framework.
 
 ![Database Plan](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/db_v01.drawio.png)
 
+```
 ### Questionnaire table
 
 **Title**
@@ -140,6 +141,7 @@ Release date of the survey.
 **Version**
 
 Version of the survey to know if it was updated.
+```
 
 ### Questions table
 
