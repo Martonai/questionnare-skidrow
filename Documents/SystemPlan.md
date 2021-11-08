@@ -117,6 +117,8 @@ Codeigniter is the framework.
 
 ## 9.Database plan
 
+![Database Plan](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/db_v01.drawio.png)
+
 ## 10.Implemenentation plan
 It will be written in Visual Studio Code. 
 These technologies are written in separate files as much as possible for easier transparency. 
