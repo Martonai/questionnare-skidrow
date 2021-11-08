@@ -85,19 +85,19 @@ and the responsibilities and powers of the Information Security Supervisor, as w
 ### System usage cases and their run-offs:
 
 SYSTEM OPERATOR:
-*Have access to view the excel table.
-*Can modify the excel.
-*Able to assign the excel to the web.
+* Have access to view the excel table.
+* Can modify the excel.
+* Able to assign the excel to the web.
 
 USER CONTRIBUTOR:
-*Able to open the questionnaire.
-*Can change their answers via checkboxes and radio buttons.
-*Can Submit their answers.
+* Able to open the questionnaire.
+* Can change their answers via checkboxes and radio buttons.
+* Can Submit their answers.
 
 ### Menu hierarchy:
 
-*Questionnaire
-*Help
+* Questionnaire
+* Help
 
 
 ## 6.Physical environment
