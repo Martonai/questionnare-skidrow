@@ -3,7 +3,7 @@
 ## 1.System purpose
 The purpose of the application is to that users can easily fill a Questionnaire without the need of the registration. The interface need to be user friendly which means should be easy to use.
 The user can not make big mistakes thanks to the radio buttons and checkboxes. The system operator assign an excel to the web which will include the questions and answers to the questionnaire.
-When the user finish the questionnaire and click on the submit button his/her answers will be saved in another excel based on if he/her was able to properly complete the first test questinnaire.
+When the user finish the questionnaire and click on the submit button his/her answers will be saved in another excel based on if he/her was able to properly complete the first test questionnaire.
 The system runs on a web platform.
 
 
@@ -63,7 +63,7 @@ SYSTEM OPERATOR:
 *Able to assign the excel to the web.
 
 USER CONTRIBUTOR:
-*Able to open the questinnaire.
+*Able to open the questionnaire.
 *Can change their answers via checkboxes and radio buttons.
 *Can Submit their answers.
 
@@ -118,6 +118,10 @@ Codeigniter is the framework.
 ## 9.Database plan
 
 ![Database Plan](https://github.com/Martonai/questionnare-skidrow/blob/main/Pictures/db_v01.drawio.png)
+
+###Questionnaire
+**Title**
+The title of the questionnaire it is just a key to the questionnaire
 
 ## 10.Implemenentation plan
 It will be written in Visual Studio Code. 
