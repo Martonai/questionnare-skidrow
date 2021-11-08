@@ -246,10 +246,13 @@ Customer can upload new questions and survey questions from an csv file.
 So PHP application has to read from a csv application.
 Users can fill the survey and the questionnaire.
 Application can connect to a database, and can save the results to this database.
+
 ## 12.Installation plan
--Admin will have the excel sheet, from where the PHP code can read the questions.
--Admin will send the link.
--Go up to the website and fill out the survey.
+
+* Admin will have the excel sheet, from where the PHP code can read the questions.
+* Admin will send the link.
+* Go up to the website and fill out the survey.
+
 ## 13.Maintenance plan
 We has to keep up-to-date the application.
 Also has to provide a full support to our customer, if he want to upgrade the application.
