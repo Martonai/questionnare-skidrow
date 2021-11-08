@@ -121,86 +121,50 @@ Codeigniter is the framework.
 
 ### Questionnaire table
 
-**Title**
+**Title**: The title of the questionnaire it is just a key to the questionnaire.
 
-The title of the questionnaire it is just a key to the questionnaire.
+**NameOfSurvey**: NameOfSurvey is the header of the survey which will be seen on the webiste
 
-**NameOfSurvey**
+**Description**: It is all about what the questionnaire is about briefly described.
 
-NameOfSurvey is the header of the survey which will be seen on the webiste
+**ReleaseDate**: Release date of the survey.
 
-**Description**
-
-It is all about what the questionnaire is about briefly described.
-
-**ReleaseDate**
-
-Release date of the survey.
-
-**Version**
-
-Version of the survey to know if it was updated.
+**Version**: Version of the survey to know if it was updated.
 
 ### Questions table
 
-**ID**
+**ID**: Primary key of the questions.
 
-Primary key of the questions.
+**Question**: The question is a text which will be one of the question in the survey.
 
-**Question**
-
-The question is a text which will be one of the question in the survey.
-
-**Type**
-
-Type of the question could be to possible types test or main. The test questions will give the user a score 1 or zero based on if the answer is right or not. Only the test quiestions have right answers in the TestQuestionChoice table.
+**Type**: Type of the question could be to possible types test or main. The test questions will give the user a score 1 or zero based on if the answer is right or not. Only the test quiestions have right answers in the TestQuestionChoice table.
 The main questions do not have any right answers it is just based on the user preference.
 
 ### TestQuestionChoice table
 
-**ID**
+**ID**: Primary key of the TestQuestionChoice.
 
-Primary key of the TestQuestionChoice.
+**QuestionID**: It is a foreign key to connect TestQuestionChoice to Questions.
 
-**QuestionID**
-
-It is a foreign key to connect TestQuestionChoice to Questions.
-
-**AnswerID**
-
-It is a foreign key to connect TestQuestionChoice to Answers which will tell us which was the right answer to the test question.
+**AnswerID**: It is a foreign key to connect TestQuestionChoice to Answers which will tell us which was the right answer to the test question.
 
 ### Answers table
 
-**ID**
+**ID**: Primary key for the Answers table.
 
-Primary key for the Answers table.
+**Answer**: The will be one of the answer to a question. The answers could be choosed my the user.
 
-**Answer**
-
-The will be one of the answer to a question. The answers could be choosed my the user.
-
-**QuestionID**
-
-QuestionID is used to connect answers to a question. A question could have several answer choices.
+**QuestionID**: QuestionID is used to connect answers to a question. A question could have several answer choices.
 
 ### Submitted
 
-**ID**
+**ID**: Primary key for the submitted table.
 
-Primary key for the submitted table.
+**T_Answers**: T_Answers are the test answers the user has choosen. There will be several T_Answers based on have many questions does the questionnaire have.
 
-**T_Answers**
+**Q_Answers**: Q_Answers are the test answers the user has choosen. There will be several Q_Answers based on have many questions does the questionnaire have.
 
-T_Answers are the test answers the user has choosen. There will be several T_Answers based on have many questions does the questionnaire have.
-
-**Q_Answers**
-
-Q_Answers are the test answers the user has choosen. There will be several Q_Answers based on have many questions does the questionnaire have.
-
-**Acceptable**
-
-Acceptable is a value which will tell us if the user failed on teh test or not. If the test is failed there will be a 0 of the the test is succeeded then there will be a 1.
+**Acceptable**: Acceptable is a value which will tell us if the user failed on teh test or not. If the test is failed there will be a 0 of the the test is succeeded then there will be a 1.
 
 ## 10.Implemenentation plan
 It will be written in Visual Studio Code. 
