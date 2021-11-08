@@ -95,7 +95,7 @@ Develeper environments:
 * PhPMyAdmin (later a realtime database)
 * dbdiagram.io
 
-Programming languges
+Programming languages
 
 * Javascript (with Vue.js framework)
 * PHP (with codeigniter framework)
