@@ -104,7 +104,7 @@ USER CONTRIBUTOR:
 It will be displayed on a web interface. The application use MySQL database.
 Developer enviroments:
 
-Visual Studio Code
+Apache NetBeans
 PhPmyAdmin
 dbdiagram.io
 
@@ -118,7 +118,7 @@ Application doesn't need an administration interface, where the customer can upl
 
 Develeper environments:
 
-* Visual Studio Code
+* Apache NetBeans
 * PhPMyAdmin (later a realtime database)
 * dbdiagram.io
 
