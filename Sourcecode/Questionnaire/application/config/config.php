@@ -35,7 +35,7 @@ $config['base_url'] = 'http://localhost/Questionnaire';
 | variable so that it is blank.
 |
 */
-$config['index_page'] = 'index.php'; //Ezt majd át kell írni itt!!!!
+$config['index_page'] = ''; //Ezt majd át kell írni itt!!!!
 
 /*
 |--------------------------------------------------------------------------
