@@ -22,41 +22,26 @@ $counter = 1;
         <meta charset="UTF-8">
         <title></title>
         <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+      
         
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-<!------ Include the above in your HEAD tag ---------->
-<
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+</head>
+<body>
+<h1>Survey</h1>
+
+<?php foreach($all_record_arr as $rec):?>   
+
 <div class="container-fluid bg-info">
     <div class="modal-dialog">
       <div class="modal-content">
+     <!-- <button type="button" class="btn btn-primary">Home</button>-->
          <div class="modal-header">
-         <button type="button" class="btn btn-primary">Home</button>
-         <h1>Survey</h1>
-       
-            
-            <table>
-                <thead>
+
+           
+                <h2>Kérdés <?=$counter++?><h2>
                
-                <tbody>
-                   
-                    <?php foreach($all_record_arr as $rec):?>
-                    <th><?=$counter++?></th>
-                    
-                    
-                 
-                      
-                   
-                </tbody>
-                </thead>
-            </table>
-       
-        
-    </body>
-</html>
+               
             <h3><span class="label label-warning" id="qid"> <td><?=$rec[0]?></td></span></h3>
         </div>
         <div class="modal-body">
@@ -73,14 +58,15 @@ $counter = 1;
           
               </div>
           </div>
-
+        
           <div class="quiz" id="quiz" data-toggle="buttons">
            <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1"><td><?=$rec[1]?></td></label>
-           <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2">  <td><?=$rec[2]?></td></label>
+           <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2"><td><?=$rec[2]?></td></label>
            <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3"><td><?=$rec[3]?></td></label>
            <label class="element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="4"><td><?=$rec[4]?></td></label>
            <br>
-           <button type="button" class="btn btn-primary">Submit</button>
+      
+       
        </div>
    </div>
    <div class="modal-footer text-muted">
@@ -89,7 +75,12 @@ $counter = 1;
 </div>
 </div>
 </div>
-        
-    </body>
-</html>
+
 <?php endforeach;?>
+
+
+</script>
+
+</body>
+</html>
+
