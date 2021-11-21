@@ -105,11 +105,13 @@ It will be displayed on a web interface. The application use MySQL database.
 Developer enviroments:
 
 Apache NetBeans
+Visual Studio Code
 PhPmyAdmin
 dbdiagram.io
 
 Programming languges:
 PhP
+SQL
 
 
 The application has to support every browser (expect interntet explorer), beacuse we don't know which
@@ -119,16 +121,17 @@ Application doesn't need an administration interface, where the customer can upl
 Develeper environments:
 
 * Apache NetBeans
+* Visual Studio Code
 * PhPMyAdmin (later a realtime database)
 * dbdiagram.io
 
 Programming languages
 
-* Javascript (with Vue.js framework)
+
 * PHP (with codeigniter framework)
 * SQL 
 
-## 7.Abstract domain model
+
 
 ## 8.Architectural plan
 Frontend:
