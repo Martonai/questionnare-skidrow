@@ -1,8 +1,12 @@
 <?php
 $this->load->model('Kerdoiv_model','k_model');
-
 $all_record_arr = $this->k_model->read();
 $counter = 1;
+$answers = [];
+foreach ($_POST as $j)
+{
+    echo $j;
+}
 ?>
 <!DOCTYPE html>
 <html>
@@ -17,6 +21,8 @@ $counter = 1;
 </head>
 <body>
 <h1>Survey</h1>
+<form method = "post">
+<button type = "submit">Submit</button>
 
 <?php foreach($all_record_arr as $rec):?>   
 
@@ -46,13 +52,27 @@ $counter = 1;
           
               </div>
           </div>
-        
+
           <div class="quiz" id="quiz" data-toggle="buttons">
-           <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1"><td><?=$rec[1]?></td></label>
-           <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2"><td><?=$rec[2]?></td></label>
-           <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3"><td><?=$rec[3]?></td></label>
-           <label class="element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="4"><td><?=$rec[4]?></td></label>
+         
+          <br>
+           <label class="element-animation1   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="1"><td><?=$rec[1]?></td></label>
+           <label class="element-animation2   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="2"><td><?=$rec[2]?></td></label>
+           <label class="element-animation3   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="3"><td><?=$rec[3]?></td></label>
+           <label class="element-animation4   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="4"><td><?=$rec[4]?></td></label>
            <br>
+           <?php
+                $answers = [
+                    //$counter => $_POST[$rec]
+                    
+                ];
+              
+                
+                
+
+            ?>
+          
+
       
        
        </div>
@@ -65,6 +85,7 @@ $counter = 1;
 </div>
 
 <?php endforeach;?>
+</form>
 
 
 </script>
