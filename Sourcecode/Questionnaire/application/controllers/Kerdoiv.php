@@ -18,7 +18,8 @@ class Kerdoiv extends CI_Controller {
     
     public function Index(){
         //$this->k_model->add_table_cols();
+       
        $this->load->view('read/survey');
-        
+      
     }
 }

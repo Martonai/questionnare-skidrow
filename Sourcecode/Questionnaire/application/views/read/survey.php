@@ -1,6 +1,7 @@
 <?php
 $this->load->model('Kerdoiv_model','k_model');
 $all_record_arr = $this->k_model->add_table_cols();
+$table = $this->k_model->surveytab();
 $counter = 1;
 $answers = [];
 foreach ($_POST as $j)
