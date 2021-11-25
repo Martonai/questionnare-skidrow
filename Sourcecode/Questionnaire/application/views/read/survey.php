@@ -1,12 +1,15 @@
 <?php
 $this->load->model('Kerdoiv_model','k_model');
-$all_record_arr = $this->k_model->read();
+$all_record_arr = $this->k_model->add_table_cols();
 $counter = 1;
 $answers = [];
 foreach ($_POST as $j)
 {
-    echo $j;
+  //  echo ' '.$j;
 }
+
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,8 +24,8 @@ foreach ($_POST as $j)
 </head>
 <body>
 <h1>Survey</h1>
-<form method = "post">
-<button type = "submit">Submit</button>
+<form method="post">
+<input type="submit" value="submit">
 
 <?php foreach($all_record_arr as $rec):?>   
 
@@ -56,18 +59,33 @@ foreach ($_POST as $j)
           <div class="quiz" id="quiz" data-toggle="buttons">
          
           <br>
-           <label class="element-animation1   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="1"><td><?=$rec[1]?></td></label>
-           <label class="element-animation2   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="2"><td><?=$rec[2]?></td></label>
-           <label class="element-animation3   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="3"><td><?=$rec[3]?></td></label>
-           <label class="element-animation4   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="4"><td><?=$rec[4]?></td></label>
+           <label class="element-animation1   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="1" required><td><?=$rec[1]?></td></label>
+           <label class="element-animation2   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="2" required><td><?=$rec[2]?></td></label>
+           <label class="element-animation3   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="3" required><td><?=$rec[3]?></td></label>
+           <label class="element-animation4   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="4" required><td><?=$rec[4]?></td></label>
            <br>
            <?php
-                $answers = [
-                    //$counter => $_POST[$rec]
-                    
-                ];
-              
                 
+               $chosenanswer = '';
+               foreach($_POST as $post){
+                   if($post == 1){
+                       $chosenanswer = $rec[1];
+                   }
+                 else  if($post == 2){
+                    $chosenanswer = $rec[2];
+                 }
+               else  if($post == 3){
+                    $chosenanswer = $rec[3];
+                }
+               else if($post == 4){
+                    $chosenanswer = $rec[4];
+                }
+        
+               }
+               $answers = [
+                   $counter => $chosenanswer
+               ];
+              var_dump($answers);
                 
 
             ?>
@@ -83,9 +101,14 @@ foreach ($_POST as $j)
 </div>
 </div>
 </div>
+<?php
 
+
+
+?>
 <?php endforeach;?>
 </form>
+
 
 
 </script>

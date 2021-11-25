@@ -5,35 +5,39 @@ class Kerdoiv_model extends CI_Model {
          parent::__construct();
          $this->load->database();
          $this->load->dbforge();
+          
+            
     }
 
-    public function read(){
+   
+    
+
+    public function add_table_cols(){
+       
         
-    $csv_file_name = 'survey.csv'; 
-
-    $handler = fopen($csv_file_name,'r');
-    $data = fgetcsv($handler,1000,",");
-
-    $all_record_arr = [];
-
-
-    while(($data = fgetcsv($handler, 1000, ","))!==FALSE){
-            $all_record_arr[] = $data;
+            $csv_file_name = 'survey.csv'; 
         
-    }
-        //echo "<pre>";print_r($all_record_arr);
-        fclose($handler);
-        $counter=1;
-
-        return $all_record_arr;
-    }
-
-    public function add_cols(){
+            $handler = fopen($csv_file_name,'r');
+            $data = fgetcsv($handler,1000,",");
+        
+            $all_record_arr = [];
+        
+        
+            while(($data = fgetcsv($handler, 1000, ","))!==FALSE){
+                    $all_record_arr[] = $data;
+                
+            }
+                //echo "<pre>";print_r($all_record_arr);
+              
+              
+        
+                
+            
         $seged = 1;
-        $counter = 5;
-        for($i=1;$i<$counter;$i++){
+        $counted = count($all_record_arr);
+        for($i=0;$i<$counted;$i++){
             $fields = array(
-                'answers'.$i => array(
+                'answers'.$i+1 => array(
                                          'type' => 'VARCHAR(255)',
                                          
                                   ),
@@ -44,8 +48,9 @@ class Kerdoiv_model extends CI_Model {
 
         $this->dbforge->create_table('anserws'.$seged);
         
-
-        
+        fclose($handler);
+        $counter=1;
+        return $all_record_arr;
         
     }
     
