@@ -68,12 +68,12 @@ class Kerdoiv_model extends CI_Model {
         }
        
         $tablename = '';
-        //echo "<pre>";print_r($all_record_arr2);
+       
         foreach($all_record_arr2 as $t){
             $tablename = $t[1];
         }
         
-        var_dump($tablename);
+       
         fclose($handler2);
         if (!($this->db->table_exists(strtolower($tablename))))
         {
@@ -84,17 +84,23 @@ class Kerdoiv_model extends CI_Model {
 
     public function inserting($tablename,$records){
 
-        var_dump($records);
+       
         $arry = array();
-        array_push($arry,$records);
-        $file = fopen("answers.csv","w");
+        
+       
+      
+        $tmpkey = 1;
+        foreach($records as $field => $value) {
+            $field = 'answers'.$tmpkey;
+            $field_data[$field]=$value;
+            $tmpkey++;
+          }
+         
+        $this->db->insert($tablename,$field_data);
+        
 
-           foreach ($arry as $line) {
-             fputcsv($file, $line);
-            }
 
-            fclose($file);
-
+    
         
        
     }

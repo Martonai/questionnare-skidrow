@@ -2,6 +2,7 @@
 $this->load->model('Kerdoiv_model','k_model');
 $all_record_arr = $this->k_model->add_table_cols();
 $counter = 1;
+$Questioncounter = 1;
 $answers = [];
 $tmpkey = 0;
 foreach ($_POST as $j)
@@ -37,7 +38,7 @@ foreach ($_POST as $j)
          <div class="modal-header">
 
            
-                <h2>Kérdés <?=$counter++?><h2>
+                <h2>Kérdés <?=$Questioncounter++?><h2>
                
                
             <h3><span class="label label-warning" id="qid"> <td><?=$rec[0]?></td></span></h3>
@@ -62,8 +63,11 @@ foreach ($_POST as $j)
           <br>
           
            <label class="element-animation1   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="1" required><td><?=$rec[1]?></td></label>
+           
            <label class="element-animation2   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="2" required><td><?=$rec[2]?></td></label>
+           
            <label class="element-animation3   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="3" required><td><?=$rec[3]?></td></label>
+           
            <label class="element-animation4   btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name=<?=$counter?> value="4" required><td><?=$rec[4]?></td></label>
            <br>
            <?php
@@ -84,7 +88,7 @@ foreach ($_POST as $j)
                 else if($post == 4){
                      $chosenanswer = $rec[4];
                  }
-         
+                   
                 }
                 $tmpkey++;
                 array_push($answers,$chosenanswer);
