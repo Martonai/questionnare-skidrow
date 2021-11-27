@@ -38,7 +38,7 @@ foreach ($_POST as $j)
          <div class="modal-header">
 
            
-                <h2>Kérdés <?=$Questioncounter++?><h2>
+                <h2>Kérdés <?=$counter++?><h2>
                
                
             <h3><span class="label label-warning" id="qid"> <td><?=$rec[0]?></td></span></h3>
